@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TESLA</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <style>
+      body {
+        background-size: cover;
+      }
+      header {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      .brand-logo {
+        width: 150px;
+        height: 50px;
+      }
+      span {
+        margin-top: 10px;
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 20px;
+        font-style: Arial;
+      }
+      .model-name {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .model-head {
+        display: inline-block;
+        font-size: 50px;
+        font-family: Arial;
+        font-weight: bold;
+      }
+      u {
+        background-color: black;
+        color: white;
+        padding: 5px;
+      }
+      .nevigate {
+        text-align: center;
+        margin-top: 250px;
+        color: white;
+      }
+      .custom {
+        border: 1px solid black;
+        background-color: rgba(0, 0, 0, 0.342);
+        padding: 15px;
+        border-radius: 20px;
+        font-family: Arial;
+      }
+      .existing {
+        background-color: rgba(255, 255, 255, 0.523);
+        color: black;
+        padding: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.897);
+        border-radius: 20px;
+      }
+      .bi-chevron-compact-down {
+        color: white;
+        margin-top: 40px;
+        border: 1px solid white;
+        height: 20px;
+        width: 40px;
+      }
+    </style>
+  </head>
+  <body background="public/images/tesla-bg2.jpeg">
+    <header>
+      <div>
+        <img
+          class="brand-logo"
+          src="public/images/tesla-logo.png"
+          alt="tesla-logo"
+        />
+      </div>
+      <div>
+        <span>Model S</span>
+        <span>Model 3</span>
+        <span>Model X</span>
+        <span>Model Y</span>
+        <span>Solar Roof</span>
+        <span>Solar Panels</span>
+      </div>
+      <div>
+        <span>Shop</span>
+        <span>Account</span>
+        <span>Menu</span>
+      </div>
+    </header>
+    <section>
+      <div class="model-name">
+        <span class="model-head">Model S</span><br />
+        <span class="tagname">Order Online for <u>Touchless Delivery</u></span>
+      </div>
+      <div class="nevigate">
+        <span class="custom">CUSTOM ORDER</span>
+        <span class="existing">EXISTING INVENTORY</span><br />
+        <span class="bi bi-chevron-compact-down"></span>
+      </div>
+    </section>
+  </body>
+</html>

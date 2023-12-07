@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Footer | Layout</title>
+    <style>
+        header{
+            height: 100px;
+        }
+        section{
+            height: 600px;
+        }
+        footer{
+            height: 300px;
+            width: 80%;
+            border: 1px solid black;
+            background-color: rgb(144, 7, 52);
+            border-radius: 10px;
+            margin-left: 120px;
+            font-family: Arial;
+            display: grid;
+            grid-template-columns: 4fr 8fr;
+            padding: 10px;
+            
+        }
+        .mid{
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .mid span{
+            display: block;
+        }
+        .email-subscribe{
+            border: 1px solid white;
+            height: 30px;
+            width: 500px;
+            color: white ;
+            margin-top: 20px;
+            padding: 10px;
+            padding-top: 15px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .subscribe{
+            border: 1px solid white;
+            height: 160%;
+            width: 250px;
+            border-radius: 25px;
+            margin-top: -15px;
+            margin-right: -10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            color: rgb(144, 7, 52);
+            font-weight: bold;
+            padding-bottom: 5px;
+            
+           
+        }
+        .heading{
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 2px;
+            margin-top: 20px;
+        }
+        .link{
+            color: pink;
+            margin-top: 10px;
+            letter-spacing: 2px;
+        }
+        .copyright{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            border-top: 1px solid white;
+            padding: 10px;
+            color: white;
+
+        }
+        img{
+            margin-top: -50px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body bgcolor="pink">
+    <header></header>
+    <section></section>
+    <footer>
+        <div class="left-panel">
+            <img src="public/images/ft1.JPG" alt="">
+        </div>
+        <div class="right-panel">
+            <div class="email-subscribe">
+                <span>Your e-mail</span>
+                <span class="subscribe">Subscribe Now!</span>
+                
+            </div>
+            <div class="mid">
+                    <div>
+                        <span class="heading">Partnership</span>
+                        <span class="link">Websites</span>
+                        <span class="link">Social Media</span>
+                        <span class="link">Branding</span>
+                    </div>
+                    <div>
+                        <span class="heading">About</span>
+                        <span class="link">Our Projects</span>
+                        <span class="link">Careers</span>
+
+                    </div>
+                    <div>
+                        <span class="heading">Support</span>
+                        <span class="link">Support Request</span>
+                        <span class="link">Contact</span>
+
+                    </div>
+
+            </div>
+            <div class="copyright">
+                <div>
+                   <span>All rights reserved 2023 @Naveen</span>
+                </div>
+                <div>
+                    <span class="bi bi-facebook"></span>
+                    <span class="bi bi-twitter-x"></span>
+                    <span class="bi bi-youtube"></span>
+                    <span class="bi bi-instagram"></span>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

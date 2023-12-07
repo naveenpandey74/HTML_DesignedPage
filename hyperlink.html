@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intra Links</title>
+    <style>
+        
+        main{
+            display: Grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            
+            padding: 10px;
+            align-items: center;
+            justify-items: center;
+            font-family: Arial;
+            margin-top: 50px;
+        }
+        .card{
+          border: 1px solid gray;
+          padding: 10px;
+        }
+        nav{
+            text-align: center;
+            text-decoration: none;
+            font-size: 35px;
+        }
+        .card:target{
+            background-color: gold;
+            color: white;
+            font-size: 30px;
+            border-radius: 100px;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <span><a href="#html">HTML</a></span> |
+        <span><a href="#css">CSS</a></span> |
+        <span><a href="#js">JavaScript</a></span>
+    </nav>
+    <main>
+        <div class="card" id="html">
+            <h2>HTML</h2>
+            <p>It is a markup language</p>
+        </div>
+        <div class="card" id="css">
+            <h2>CSS</h2>
+            <p>It configures styles</p>
+        </div>
+        <div class="card" id="js">
+            <h2>JavaScript</h2>
+            <p>It manipulates DOM.</p>
+        </div>
+    </main>
+</body>
+</html>

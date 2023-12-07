@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width initial scale = 1">
+        <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <title>Shoppers.</title>
+        <style>
+            header{
+                display : flex;
+                justify-content: space-between;
+                border: 2px solid black;
+                margin: 10px;
+                padding: 25px;
+               
+                font-size: 20px;
+                font-family: Arial;
+            }
+            span{
+                margin-right: 25px;
+            }
+            .brand-title{
+                font-weight: bold;
+                font-size: 30px;
+            }
+            article{
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                font-size: 20px;
+                font-family: Arial;
+            }
+            .bi-lightning-fill{
+                color: gold;
+            }
+            section{
+                height: 500px;
+            }
+            footer{
+                background-color: black;
+                color: white;
+                padding: 10px;
+            }
+            .subscribe{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 200px;
+                text-align: center;
+            }
+            .subscribe-title{
+                font-size: 25px;
+                font-family: Arial;
+                font-weight: bold;
+                margin-bottom: 40px;
+            }
+            .email{
+                display: inline-block;
+                border: 1px solid rgba(255, 255, 255, 0.156);
+                width: 300px;
+                padding: 20px;
+                font-size: 18px;
+                color: rgba(255, 255, 255, 0.474);
+                font-family: Arial;
+                text-align: start;
+                background-color: rgba(255, 255, 255, 0.151);
+            }
+            .btn-subscribe{
+                display: inline-block;
+                padding: 20px;
+                width: 100px;
+                font-size: 18px;
+                border: 1px solid rgba(255, 255, 255, 0.156);
+                background-color: rgba(255, 255, 255, 0.156);
+                font-weight: bold;
+                font-family: Arial;
+            }
+            .footer{
+                display: grid;
+                grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+                margin-top: 50px;
+            }
+            .footer-title{
+                font-weight: bold;
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            .footer-title~span{
+                display: block;
+                margin-bottom: 15px;
+            }
+            .footer-brand{
+                font-size: 25px;
+                font-weight: bold;
+                margin-bottom: 20px;
+
+            }
+            aside span{
+                font-size: 20px;
+                margin-right: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <div>
+               <span class="brand-title">Shoppers.</span>
+            </div>
+            <div>
+                <span>Home</span>
+                <span>Catalog</span>
+                <span>Shop</span>
+                <span>Pages</span>
+                <span>Docs</span>
+            </div>
+            <div>
+                <span class="bi bi-search"></span>
+                <span class="bi bi-person"></span>
+                <span class="bi bi-heart"></span>
+                <span class="bi bi-cart4"></span>
+
+            </div>
+        </header>
+        <article>
+            <span class="bi bi-lightning-fill"></span>
+            <span>HAPPY HOLIDAY DEALS ON EVERYTHING</span>
+            <span class="bi bi-lightning-fill"></span>
+        </article>
+        <section></section>
+        <footer>
+            <div class="subscribe">
+                <div>
+                    <div class="subscribe-title">Want style Ideas and Treats?</div>
+                    <div>
+                        <span class="email">Enter Email*</span>
+                        <span class="btn-subscribe">Subscribe</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div>
+                    <div class="footer-brand">Shoppers.</div>
+                    <aside>
+                        <span class="bi bi-facebook"></span>
+                        <span class="bi bi-twitter-x"></span>
+                        <span class="bi bi-instagram"></span>
+                        <span class="bi bi-youtube"></span>
+                    </aside>
+                </div>
+                <div>
+                    <div class="footer-title">SUPPORT</div>
+                <span>Contact Us</span>
+                <span>FAQS</span>
+                <span>Size Guide</span>
+                <span>Shipping & Returns</span>
+                </div>
+                
+                <div>
+                    <div class="footer-title">SHOP</div>
+                    <span>Men's Shopping</span>
+                    <span>Women's Shopping</span>
+                    <span>Kids' Shopping</span>
+                    <span>Discounts</span>
+                </div>
+
+                <div>
+                    <div class="footer-title">COMPANY</div>
+                    <span>Our Story</span>
+                    <span>Careers</span>
+                    <span>Terms & Conditions</span>
+                    <span>Privacy & Cookie Policy</span>
+                </div>
+                
+                <div>
+                    <div class="footer-title">Contact</div>
+                    <span>1-202-505-0105</span>
+                    <span>1-202-555-0106</span>
+                    <span>help@shoppers.com</span>
+                </div>
+                
+
+            </div>
+        </footer>
+    </body>
+</html>

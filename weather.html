@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today | Weather</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <style>
+      table {
+        background-image: url(public/images/wdbg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: Arial;
+      }
+      td span {
+        display: block;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+      .hyd {
+        display: inline-block;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 20px;
+        color: white;
+      }
+      .update {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: -70px;
+        margin-left: 10px;
+        color: white;
+      }
+      .bi-water {
+        font-size: 50px;
+        color: gold;
+      }
+      .second {
+        height: 100px;
+        text-align: center;
+        color: white;
+      }
+      .centi {
+        border-bottom: 2px solid white;
+        margin-bottom: -5px;
+      }
+      .third{
+        font-weight: bold;
+        color: white;
+        font-size: 25px;
+      }
+      .fourth{
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.23);
+      }
+      .bi{
+         font-size: 40px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <table
+      width="100%"
+      height="100vh"
+      cellpadding="5"
+      cellspacing="8"
+      frame="void"
+    >
+      <tr>
+        <td colspan="8" >
+          <div>
+            <span class="hyd">Hyderabad</span><br />
+            <span class="update">Updated a few minutes ago</span>
+          </div>
+        </td>
+      </tr>
+      <tr class="second">
+        <td><span class="bi bi-water"></span></td>
+        <td style="font-size: 40px">24</td>
+        <td>
+          <span style="font-size: 40px">&deg;C<br />&deg;F</span>
+        </td>
+        <td>
+          <span class="centi">35 &deg;C</span>
+          <span>91 &deg;F</span>
+        </td>
+        <td>
+            <span style="color:gold" class="bi bi-cloud"></span>
+        </td>
+        <td>
+            <span style="color:gold" class="bi bi bi-sun-fill"></span>
+        </td>
+        <td>
+            <span style="color:gold" class="bi bi-moon-stars"></span>
+        </td>
+        <td>
+          <h4>Wind: 12KMPH</h4>
+          <h5>Humidity:83%</h5>
+        </td>
+      </tr>
+      <tr class="third">
+        <td colspan="8">Haze. Wed 11, 12:30pm</td>
+      </tr>
+      <tr class="fourth">
+        <td>
+          <span>3 PM</span>
+          <span>Wed 11</span>
+          <span style="color:gold" class="bi bi-cloud-fog2"></span>
+          <span>30&deg;C</span>
+          <span>86&deg;F</span>
+        </td>
+        <td>
+          <span>6 PM</span>
+          <span>Wed 11</span>
+          <span style="color:gold" class="bi bi-cloud-lightning-fill"></span>
+          <span>25&deg;C</span>
+          <span>77&deg;F</span>
+        </td>
+        <td>
+          <span>9 PM</span>
+          <span>Wed 11</span>
+          <span style="color:gold" class="bi bi-cloud"></span>
+          <span>27&deg;C</span>
+          <span>85&deg;F</span>
+        </td>
+        <td>
+          <span>12 AM</span>
+          <span>Thu 12</span>
+          <span style="color:gold" class="bi bi-cloud"></span>
+          <span>35&deg;C</span>
+          <span>71&deg;F</span>
+        </td>
+        <td>
+          <span>3 AM</span>
+          <span>Thu 12</span>
+          <span style="color:gold" class="bi bi-cloud-drizzle"></span>
+          <span>15&deg;C</span>
+          <span>57&deg;F</span>
+        </td>
+        <td>
+          <span>6 AM</span>
+          <span>Thu 12</span>
+          <span style="color:gold" class="bi bi-cloud-drizzle"></span>
+          <span>20&deg;C</span>
+          <span>87&deg;F</span>
+        </td>
+        <td>
+          <span>9 AM</span>
+          <span>Thu 12</span>
+          <span style="color:gold" class="bi bi-cloud-drizzle"></span>
+          <span>25&deg;C</span>
+          <span>77&deg;F</span>
+        </td>
+        <td>
+          <span>12 PM</span>
+          <span>Thu 12</span>
+          <span style="color:gold" class="bi bi-cloud-rain-heavy"></span>
+          <span>22&deg;C</span>
+          <span>79&deg;F</span>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

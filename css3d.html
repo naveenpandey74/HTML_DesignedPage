@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 2D</title>
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <style>
+    .women-fashion{
+      width: 250px;
+      height: 350px;
+      background-image: url(public/images/w1.jpg);
+      background-size: cover;
+      box-shadow: 5px 5px 5px gray;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      padding: 30px;
+      overflow: hidden;
+    }
+    .women-fashion:hover{
+      background-image: url(public/images/w2.jpg);
+      background-size: cover;
+      overflow: hidden;
+    }
+    .icons span{
+      background-color: white;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px;
+      box-shadow: 2px 2px 2px black;
+    }
+    .icons{
+      margin-bottom: -80px;
+      transition: 500ms;
+    }
+    .women-fashion:hover .icons{
+      margin-bottom: 0px;
+      transition: 500ms;
+    }
+  </style>
+</head>
+<body>
+ <div class="women-fashion">
+       <div class="icons">
+        <span class="bi bi-eye"></span>
+        <span class="bi bi-heart"></span>
+        <span class="bi bi-cart"></span>
+       </div>
+ </div>
+</body>
+</html>
